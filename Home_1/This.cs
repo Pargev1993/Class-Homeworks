@@ -34,6 +34,10 @@ namespace Home_1
             this.Gender = Gender;
         }
         
+        public string PrintAll()
+        {
+            return $"My Name: {FName}.\nLast name:{LName}.\nMy age: {Age}.\nMy weight: {Weight}.\nI am a {Gender}.";
+        }
 
     }
 }
