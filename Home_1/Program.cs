@@ -10,7 +10,7 @@ namespace Home_1
     {
         static void Main(string[] args)
         {
-            This This = new This("Pargev", "Avagyan", 25, 60, "Boy");
+            Human This = new Human("Pargev", "Avagyan", 25, 60, "Boy");
             String Me = This.PrintAll();
             Console.WriteLine(Me);
             Console.ReadKey();
