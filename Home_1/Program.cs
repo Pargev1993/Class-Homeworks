@@ -10,8 +10,8 @@ namespace Home_1
     {
         static void Main(string[] args)
         {
-            Human This = new Human("Pargev", "Avagyan", 25, 60, "Boy");
-            String Me = This.PrintAll();
+            Human Person = new Human("Pargev", "Avagyan", 25, 60, "Boy");
+            String Me = Person.PrintAll();
             Console.WriteLine(Me);
             Console.ReadKey();
         }
