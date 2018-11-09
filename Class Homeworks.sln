@@ -7,6 +7,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "This.Homework", "This.Homew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Home_1", "Home_1\Home_1.csproj", "{6A388AAB-ADCB-46A9-948F-35C98C6939EC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Animal world", "Animal world", "{3BF141B7-A13A-4FA2-8B5E-238CC7F889BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZooPark", "ZooPark\ZooPark.csproj", "{FF15AD9E-7F9D-4423-BB41-6EF874802AEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +21,17 @@ Global
 		{6A388AAB-ADCB-46A9-948F-35C98C6939EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A388AAB-ADCB-46A9-948F-35C98C6939EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A388AAB-ADCB-46A9-948F-35C98C6939EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FF15AD9E-7F9D-4423-BB41-6EF874802AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FF15AD9E-7F9D-4423-BB41-6EF874802AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FF15AD9E-7F9D-4423-BB41-6EF874802AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FF15AD9E-7F9D-4423-BB41-6EF874802AEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{6A388AAB-ADCB-46A9-948F-35C98C6939EC} = {A341F99D-598A-4D6F-BDB8-1DCC6473904B}
+		{FF15AD9E-7F9D-4423-BB41-6EF874802AEB} = {3BF141B7-A13A-4FA2-8B5E-238CC7F889BA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD220E96-1A2F-4061-A2EB-82B850544615}
