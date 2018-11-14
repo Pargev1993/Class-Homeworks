@@ -17,6 +17,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Nasledovanie", "Nasledovani
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generic", "Generic\Generic.csproj", "{643D36B7-FB41-4E1F-845C-44B35CCCF4A7}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract Class Homework", "Abstract Class Homework", "{947C1D75-FEB1-4C74-A816-0A69206C5D62}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstarct Class", "Abstarct Class\Abstarct Class.csproj", "{1C1C2E8C-8304-4AEF-B634-F7003663C690}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +39,10 @@ Global
 		{643D36B7-FB41-4E1F-845C-44B35CCCF4A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{643D36B7-FB41-4E1F-845C-44B35CCCF4A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{643D36B7-FB41-4E1F-845C-44B35CCCF4A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C1C2E8C-8304-4AEF-B634-F7003663C690}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C1C2E8C-8304-4AEF-B634-F7003663C690}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C1C2E8C-8304-4AEF-B634-F7003663C690}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C1C2E8C-8304-4AEF-B634-F7003663C690}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -44,6 +52,7 @@ Global
 		{FF15AD9E-7F9D-4423-BB41-6EF874802AEB} = {3BF141B7-A13A-4FA2-8B5E-238CC7F889BA}
 		{41BF8E09-8E5E-4AA6-A1C5-7FD6BA9002CB} = {15AD90BE-20CB-4F2C-8353-3B0FCC56145D}
 		{643D36B7-FB41-4E1F-845C-44B35CCCF4A7} = {41BF8E09-8E5E-4AA6-A1C5-7FD6BA9002CB}
+		{1C1C2E8C-8304-4AEF-B634-F7003663C690} = {947C1D75-FEB1-4C74-A816-0A69206C5D62}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD220E96-1A2F-4061-A2EB-82B850544615}
