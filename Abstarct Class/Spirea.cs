@@ -22,6 +22,7 @@ namespace Abstarct_Class
         }
         public string PrintSpirea()
         {
+            Console.ForegroundColor = ConsoleColor.Yellow;
             return $"This is Fetal tree,his name is Spirea,his roots are {Root},his leaves color is {Leaves}, live year {LiveYear},flowers color is {FlowersColor}";
         }
 

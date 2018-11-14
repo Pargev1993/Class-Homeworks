@@ -14,23 +14,34 @@ namespace Abstarct_Class
 
             Spirea spirea = new Spirea("Not so deep", "Not so long", "Green", 15, 0.5, "Beautiful", true, "autom");
             Console.WriteLine("Enter type of tree: Bush or Fetal tree");
+            while (true)
+            {
                 string Type = Console.ReadLine();
+                
+                    if (Type == "Q" || Type == "q")
+                        break;
+                
+                    if (Type == "Fetal Tree" || Type=="fetal tree")
+                    {
+                        Console.WriteLine(appleTree.PrintAppleTree());
+                        Console.WriteLine("Apple tree produces Oxygen: " + appleTree.ProducesOxygen());
+                    Console.WriteLine(new string ('-',20));
+                    Console.WriteLine("For exit Press Q");
+                    }
+                    else if (Type == "Bush"||Type=="bush")
+                    {
+                        Console.WriteLine(spirea.PrintSpirea());
+                    Console.WriteLine("Spirea fetal trees produces Oxygen: " + spirea.ProducesOxygen());
+                    Console.WriteLine(new string('-', 20));
+                    Console.WriteLine("For exit Press Q");
+                }
+                    else
+                       Console.WriteLine("We have not so trees!");
 
-            if (Type == "Fetal tree")
-            {
-                Console.WriteLine(appleTree.PrintAppleTree());
-                Console.WriteLine("Apple tree produces Oxygen: " + appleTree.ProducesOxygen());
+                
+               
             }
-            else if (Type == "Bush")
-            {
-                Console.WriteLine(spirea.PrintSpirea());
-                Console.WriteLine("Spirea fetal trees produces Oxygen: " + spirea.ProducesOxygen());
-            }
-            else
-                Console.WriteLine("We have not so trees!");
-
-           
-            Console.ReadKey();
+            //Console.ReadKey();
 
         }
     }
