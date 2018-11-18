@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Abstract Class Homework", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstarct Class", "Abstarct Class\Abstarct Class.csproj", "{1C1C2E8C-8304-4AEF-B634-F7003663C690}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Interface Homework", "Interface Homework", "{4E813531-45FC-4516-B61C-AF21C24F8A30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaesHomework", "InterfaesHomework\InterfaesHomework.csproj", "{B6881FF8-DA54-4114-9047-A45EBB84962E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{1C1C2E8C-8304-4AEF-B634-F7003663C690}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C1C2E8C-8304-4AEF-B634-F7003663C690}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C1C2E8C-8304-4AEF-B634-F7003663C690}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6881FF8-DA54-4114-9047-A45EBB84962E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6881FF8-DA54-4114-9047-A45EBB84962E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6881FF8-DA54-4114-9047-A45EBB84962E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6881FF8-DA54-4114-9047-A45EBB84962E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{41BF8E09-8E5E-4AA6-A1C5-7FD6BA9002CB} = {15AD90BE-20CB-4F2C-8353-3B0FCC56145D}
 		{643D36B7-FB41-4E1F-845C-44B35CCCF4A7} = {41BF8E09-8E5E-4AA6-A1C5-7FD6BA9002CB}
 		{1C1C2E8C-8304-4AEF-B634-F7003663C690} = {947C1D75-FEB1-4C74-A816-0A69206C5D62}
+		{B6881FF8-DA54-4114-9047-A45EBB84962E} = {4E813531-45FC-4516-B61C-AF21C24F8A30}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD220E96-1A2F-4061-A2EB-82B850544615}
