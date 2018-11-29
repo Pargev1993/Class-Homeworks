@@ -21,8 +21,7 @@ namespace Events
             }
             public double YNumber(double y)
             {
-                do
-                {
+                
                     try
                     {
                         Console.WriteLine("Enter Y number");
@@ -33,7 +32,7 @@ namespace Events
                         Console.WriteLine("Please Enter Number!");
                         YNumber(y);
                     }
-                } while (false);
+               
                 return y;
 
             }
