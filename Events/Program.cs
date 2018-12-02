@@ -19,49 +19,52 @@ namespace Events
             {
                 NumbersOf.Invoke(x, y);
             }
-            public double YNumber(double y)
+            public double Numbers(out double x, out double y)
             {
-                
-                    try
-                    {
-                        Console.WriteLine("Enter Y number");
-                        y = double.Parse(Console.ReadLine());
-                    }
-                    catch (FormatException)
-                    {
-                        Console.WriteLine("Please Enter Number!");
-                        YNumber(y);
-                    }
-               
-                return y;
+                while (true)
+                {
 
-            }
 
-            public double XNumber(double x)
-            {
                     try
                     {
                         Console.WriteLine("Enter X number");
                         x = double.Parse(Console.ReadLine());
-
+                        Console.WriteLine("Enter Y number");
+                        y = double.Parse(Console.ReadLine());
+                        break;
                     }
                     catch (FormatException)
                     {
                         Console.WriteLine("Please Enter Number!");
-                    XNumber(x);
+                        continue;
                     }
-                
-                return x;
+                }
+                return y;
 
             }
+
+            //public double XNumber(double x)
+            //{
+            //        try
+            //        {
+            //            Console.WriteLine("Enter X number");
+            //            x = double.Parse(Console.ReadLine());
+
+            //        }
+            //        catch (FormatException)
+            //        {
+            //            Console.WriteLine("Please Enter Number!");
+            //        XNumber(x);
+            //        }
+                
+            //    return x;
+
+            //}
 
             static void Main(string[] args)
             {
                 Calculator calculator = new Calculator();
-                double x = 0.0;
-                double y = 0.0;
-                x = calculator.XNumber(x);
-                y = calculator.YNumber(y);
+                calculator.Numbers(out double x, out double y);
                 Console.WriteLine("Please Chose An Operation wich one you wont to do: +,-,*,/ ");
                 string Oper = Console.ReadLine();
                 switch (Oper)
@@ -85,8 +88,6 @@ namespace Events
                         break;
 
                 }
-                Console.ReadKey();
-
             }
             public static double Add(double x, double y)
             {
@@ -135,7 +136,7 @@ namespace Events
             //    }
             //    return i;
             //}
-
+           
 
         }
     }
