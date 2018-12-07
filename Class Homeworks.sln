@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISTC.Secondcours.Generic", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate_", "Delegate_\Delegate_.csproj", "{9F250C80-AAE3-4B8E-A626-884A03B4783F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Homework", "LINQ_Homework\LINQ_Homework.csproj", "{F9172183-7A44-409E-AC56-BECAD5BF86DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{9F250C80-AAE3-4B8E-A626-884A03B4783F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F250C80-AAE3-4B8E-A626-884A03B4783F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F250C80-AAE3-4B8E-A626-884A03B4783F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9172183-7A44-409E-AC56-BECAD5BF86DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9172183-7A44-409E-AC56-BECAD5BF86DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9172183-7A44-409E-AC56-BECAD5BF86DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9172183-7A44-409E-AC56-BECAD5BF86DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
