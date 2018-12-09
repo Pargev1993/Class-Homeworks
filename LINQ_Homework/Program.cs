@@ -6,6 +6,18 @@ using System.Threading.Tasks;
 
 namespace Generic
 {
+
+    class KFCBranch
+    {
+        public string Branches { get; set; }
+        public double Rating { get; set; }
+    }
+    class KFcWorkers
+    {
+        public string Name { get; set; }
+        public string Position { get; set; }
+        public double Salary { get; set; }
+    }
     class Kfc
     {
         public string Name { get; set; }
@@ -29,18 +41,54 @@ namespace Generic
                new Kfc{Name="ShefBurger",SaleRaiting=86.5,TastyRaiting= 97,ValueOfPrise=1150,TypeOfFood="Burger"},
             };
 
+            var Workers = new List<KFcWorkers>
+            {
+                new KFcWorkers {Name="Lilia",Position="cashier",Salary=80000},
+                new KFcWorkers{Name ="Bill",Position="Cooker",Salary=90000},
+                new KFcWorkers{Name ="James",Position="Trainer",Salary=110000},
+                new KFcWorkers{Name ="Mari",Position="Cashier",Salary=80000},
+                new KFcWorkers{Name ="Mariam",Position="Trainer",Salary=110000},
+                new KFcWorkers{Name ="Jhon",Position="Manager",Salary=200000},
+                new KFcWorkers{Name ="James",Position="director",Salary=300000},
+                new KFcWorkers{Name ="Bill",Position="Deputy Director",Salary=90000},
+            };
+
+            var Branch = new List<KFCBranch>
+            {
+                new KFCBranch{Branches="Moskovtan",Rating=26.8},
+                new KFCBranch{Branches="Yerevan Mall",Rating=35.9},
+                new KFCBranch{Branches="Dalma Mall",Rating=20.3},
+                new KFCBranch{Branches="Komitas",Rating=17},
+            };
+
+
             var Burgers =
                 from BestBurgers in Food
                 where BestBurgers.TypeOfFood == "Burger"
-                orderby BestBurgers.Name
+                orderby BestBurgers.Name,BestBurgers.SaleRaiting
                 select new
                 {
+                    raiting=BestBurgers.SaleRaiting,
                     Name = BestBurgers.Name
                 };
-            foreach (var Item in Burgers)
+            //foreach (var Item in Burgers)
+            //{
+            //    Console.WriteLine($"Burgers are: {Item.Name} ");
+            //}
+            //Console.WriteLine(new string('*', 50));
+            var Work =
+                from Worker in Workers
+                where Worker.Position == "cashier"
+                join Foods in Food
+               on Food
+                into OurWorjers
 
-                Console.WriteLine($"Burgers are: {Item.Name} ");
-            Console.WriteLine(new string('*', 50));
+
+
+
+
+
+
 
             var sandwich =
                 from BestSandwich in Food
