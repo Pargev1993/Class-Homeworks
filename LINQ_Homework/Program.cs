@@ -76,19 +76,6 @@ namespace Generic
             //    Console.WriteLine($"Burgers are: {Item.Name} ");
             //}
             //Console.WriteLine(new string('*', 50));
-            var Work =
-                from Worker in Workers
-                where Worker.Position == "cashier"
-                join Foods in Food
-               on Food
-                into OurWorjers
-
-
-
-
-
-
-
 
             var sandwich =
                 from BestSandwich in Food
@@ -127,6 +114,7 @@ namespace Generic
             foreach (var item in BastTastFoods)
                 Console.WriteLine("The Most expensive Foods Are " + item.name);
             Console.WriteLine(new string('*', 50));
+            
 
 
 
