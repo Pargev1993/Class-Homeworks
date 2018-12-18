@@ -37,6 +37,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LINQ_Homework", "LINQ_Homew
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UNIQ-Work", "UNIQ-Work\UNIQ-Work.csproj", "{A0B15311-989B-4A03-AE35-63223F49E451}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Istc.thirdCours.collections", "Istc.thirdCours.collections\Istc.thirdCours.collections.csproj", "{96A3562A-1AF0-4F88-9BD5-3FEDFFACB11E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{A0B15311-989B-4A03-AE35-63223F49E451}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A0B15311-989B-4A03-AE35-63223F49E451}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A0B15311-989B-4A03-AE35-63223F49E451}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96A3562A-1AF0-4F88-9BD5-3FEDFFACB11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96A3562A-1AF0-4F88-9BD5-3FEDFFACB11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96A3562A-1AF0-4F88-9BD5-3FEDFFACB11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96A3562A-1AF0-4F88-9BD5-3FEDFFACB11E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

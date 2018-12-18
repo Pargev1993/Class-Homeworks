@@ -29,7 +29,8 @@ namespace Generic
     class Program
     {
         static void Main(string[] args)
-        {
+        { 
+
             var Food = new List<Kfc>
             {
                new Kfc{Name="Twister",SaleRaiting=45,TastyRaiting=95,ValueOfPrise=1150,TypeOfFood="Sandwich"},
