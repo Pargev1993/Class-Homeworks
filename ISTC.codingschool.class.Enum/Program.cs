@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Enum
+namespace Enumer
 {
-    enum Enum
+    enum Enumtype:byte
     {
         manager,
         worker,
@@ -17,17 +17,18 @@ namespace Enum
     {
         static void Main(string[] args)
         {
-            Enum @enum = Enum.manager;
+            Enumtype @enum = Enumtype.manager;
             AskforBonus(@enum);
+            Console.WriteLine(Enum.GetUnderlyingType(@enum.GetType()));
         }
-        static void AskforBonus(Enum e)
+        static void AskforBonus(Enumtype e)
         {
             switch (e)
             {
-                case Enum.director:
+                case Enumtype.director:
                     Console.WriteLine("Director");
                     break;
-                case Enum.manager:
+                case Enumtype.manager:
                     Console.WriteLine("Manager");
                     break;
 
