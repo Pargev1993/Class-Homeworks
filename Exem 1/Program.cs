@@ -15,7 +15,7 @@ namespace Exem_1
             return numericValue;
         }
         public bool? GetBoolFromDatabase()
-        {
+        { 
             return boolValue;
         }
     }
