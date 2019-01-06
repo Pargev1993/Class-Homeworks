@@ -20,6 +20,7 @@ namespace ISTC.codingschool.OOP.Class
         {
             Console.WriteLine("Name {0} : Age {1} ",Name,Age);
         }
+        
        
     }
     class Program

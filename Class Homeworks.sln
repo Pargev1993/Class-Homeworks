@@ -57,6 +57,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemple1", "ISTC.codingscho
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISTC.codingschool.OOP.Class", "ISTC.codingschool.OOP.Class", "{1080BA60-AE9E-4B02-AB79-153109EE2251}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISTC.codingschool.OOP.Nullable", "ISTC.codingschool.OOP.Nullable", "{3A82B4AD-B8BA-44CE-A2B6-86CAC589614B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nullable Types", "Nullable Types\Nullable Types.csproj", "{37B26292-A217-48AE-A369-ED1821291155}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +139,10 @@ Global
 		{537B718E-2F7D-4B3D-94F6-DB4BD69F69CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537B718E-2F7D-4B3D-94F6-DB4BD69F69CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537B718E-2F7D-4B3D-94F6-DB4BD69F69CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37B26292-A217-48AE-A369-ED1821291155}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37B26292-A217-48AE-A369-ED1821291155}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37B26292-A217-48AE-A369-ED1821291155}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37B26292-A217-48AE-A369-ED1821291155}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -153,6 +161,7 @@ Global
 		{955D1E35-EDBB-4438-B7EC-3F6B20E071FD} = {A6136294-FCE9-486C-9611-F0768FE9952E}
 		{2650C721-3887-4EB6-9C67-AC773F725D63} = {A6136294-FCE9-486C-9611-F0768FE9952E}
 		{537B718E-2F7D-4B3D-94F6-DB4BD69F69CB} = {1080BA60-AE9E-4B02-AB79-153109EE2251}
+		{37B26292-A217-48AE-A369-ED1821291155} = {3A82B4AD-B8BA-44CE-A2B6-86CAC589614B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD220E96-1A2F-4061-A2EB-82B850544615}
