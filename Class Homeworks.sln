@@ -73,6 +73,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISTC.coingschool.OOP.Overlo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OperatorOverload", "OperatorOverload\OperatorOverload.csproj", "{1C92DEE1-97A9-473F-9F7B-969ACC66E797}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exem 3", "Exem 3\Exem 3.csproj", "{DE5466E6-B00B-46E7-81B2-09FF2BCCD027}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{1C92DEE1-97A9-473F-9F7B-969ACC66E797}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C92DEE1-97A9-473F-9F7B-969ACC66E797}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C92DEE1-97A9-473F-9F7B-969ACC66E797}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE5466E6-B00B-46E7-81B2-09FF2BCCD027}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE5466E6-B00B-46E7-81B2-09FF2BCCD027}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE5466E6-B00B-46E7-81B2-09FF2BCCD027}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE5466E6-B00B-46E7-81B2-09FF2BCCD027}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -194,6 +200,7 @@ Global
 		{4AE547AC-68D8-44DF-A044-F8F4C3926761} = {3A82B4AD-B8BA-44CE-A2B6-86CAC589614B}
 		{CB96EEE5-289B-4BD6-BDB6-B2BB8210DD0B} = {C02AE51C-557C-4489-8CCA-FCF2BDDAC2AE}
 		{1C92DEE1-97A9-473F-9F7B-969ACC66E797} = {EF147308-D08D-4656-BB1A-BCAF6508B421}
+		{DE5466E6-B00B-46E7-81B2-09FF2BCCD027} = {3A82B4AD-B8BA-44CE-A2B6-86CAC589614B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD220E96-1A2F-4061-A2EB-82B850544615}
