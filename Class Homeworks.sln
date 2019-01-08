@@ -79,6 +79,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISTC.codingschool.OOP.inher
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISTC.codingschool.OOP.WorkWithFiles", "ISTC.codingschool.OOP.WorkWithFiles\ISTC.codingschool.OOP.WorkWithFiles.csproj", "{A08D8D8F-DBA8-499B-9619-64E6E8A2480A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISTC.codingschool.OOP.WorkWithFiles1", "ISTC.codingschool.OOP.WorkWithFiles1\ISTC.codingschool.OOP.WorkWithFiles1.csproj", "{7EC52088-8CAA-4844-917B-000676730678}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -189,6 +191,10 @@ Global
 		{A08D8D8F-DBA8-499B-9619-64E6E8A2480A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A08D8D8F-DBA8-499B-9619-64E6E8A2480A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A08D8D8F-DBA8-499B-9619-64E6E8A2480A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EC52088-8CAA-4844-917B-000676730678}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EC52088-8CAA-4844-917B-000676730678}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EC52088-8CAA-4844-917B-000676730678}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EC52088-8CAA-4844-917B-000676730678}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
