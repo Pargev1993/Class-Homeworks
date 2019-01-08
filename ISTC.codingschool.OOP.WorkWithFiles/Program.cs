@@ -16,6 +16,16 @@ namespace ISTC.codingschool.OOP.WorkWithFiles
             {
                 Console.WriteLine(item.Name);
                 Console.WriteLine(item.DriveType);
+                Console.WriteLine(item.RootDirectory);
+                Console.WriteLine(item.);
+                try
+                {
+                    Console.WriteLine(item.DriveFormat);
+                }
+                catch(Exception e)
+                {
+                    Console.WriteLine(e.HelpLink);
+                }
                 if (item.IsReady)
                 {
                     Console.WriteLine(item.TotalSize);
