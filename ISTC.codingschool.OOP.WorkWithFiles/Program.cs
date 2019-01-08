@@ -17,7 +17,7 @@ namespace ISTC.codingschool.OOP.WorkWithFiles
                 Console.WriteLine(item.Name);
                 Console.WriteLine(item.DriveType);
                 Console.WriteLine(item.RootDirectory);
-                Console.WriteLine(item.);
+                Console.WriteLine(item.AvailableFreeSpace);
                 try
                 {
                     Console.WriteLine(item.DriveFormat);
