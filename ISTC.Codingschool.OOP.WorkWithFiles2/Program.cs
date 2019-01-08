@@ -11,32 +11,19 @@ namespace ISTC.Codingschool.OOP.WorkWithFiles2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Введите строку для записи в файл:");
+            Console.WriteLine("Plrase write a text");
             string text = Console.ReadLine();
 
-            // запись в файл
-            using (FileStream fstream = new FileStream(@"C:\Users\pqoal\Documents\note.txt", FileMode.OpenOrCreate))
+            using (FileStream files = new FileStream(@"C:\Users\pqoal\Documents\txt.txt", FileMode.OpenOrCreate))
             {
-                // преобразуем строку в байты
-                byte[] array = System.Text.Encoding.Default.GetBytes(text);
-                // запись массива байтов в файл
-                fstream.Write(array, 0, array.Length);
-                Console.WriteLine("Текст записан в файл");
+                byte[] Array = System.Text.Encoding.Default.GetBytes(text);
+                files.Write(Array, 0, Array.Length);
+               var s= files.Position;
+                files.Close();
+            
             }
-
-            // чтение из файла
-            using (FileStream fstream = File.OpenRead(@"C:\Users\pqoal\Documents\note.txt"))
-            {
-                // преобразуем строку в байты
-                byte[] array = new byte[fstream.Length];
-                // считываем данные
-                fstream.Read(array, 0, array.Length);
-                // декодируем байты в строку
-                string textFromFile = System.Text.Encoding.Default.GetString(array);
-                Console.WriteLine("Текст из файла: {0}", textFromFile);
-            }
-
-            Console.ReadLine();
+           
+          
         }
     }
 }
