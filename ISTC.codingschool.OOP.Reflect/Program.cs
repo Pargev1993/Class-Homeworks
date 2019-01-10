@@ -78,37 +78,37 @@ namespace ISTC.codingschool.OOP.Reflect
                 Console.WriteLine(item.Name);
             }
             IEnumerable<MethodInfo> methods = typeInfo.DeclaredMethods;
-            foreach (var s in methods)
+            foreach (var sdd in methods)
             {
-                Console.WriteLine(s.Name);
+                Console.WriteLine(sdd.Name);
             }
 
-            //Persone persone = new Persone();
-            //Type type;
-            //type = persone.GetType();
-            //Console.WriteLine(type);
-            //var s = type.Name;
-            //type = Type.GetType("ISTC.codingschool.OOP.Reflect.Persone");
-            //Console.WriteLine(type);
-            //type = typeof(Persone);
-            //Console.WriteLine(type);
-            //var d = type.GetTypeInfo();
-            //Console.WriteLine(d);
-            //type.GetRuntimeProperty(" ");
-            //var t = type.TypeInitializer;
-            //Method1(persone);
-            //Method2(persone);
-            //Method3(persone);
-            //Method4(persone);
-            //Method5(persone);
-            //MethodInfo info = type.GetMethod("MethodC", BindingFlags.Instance | BindingFlags.NonPublic);
-            //info.Invoke(persone, new object[] { 15,16 });
-            //FieldInfo fieldInfo = type.GetField("Name", BindingFlags.Instance | BindingFlags.NonPublic);
-            //fieldInfo.SetValue(persone, "Armen" );
-            //Console.WriteLine(new string('_', 30));
-            //Console.WriteLine(persone.Name);
-            //Console.WriteLine(info);
-            //Type T = typeof(Persone);
+            Persone persone = new Persone();
+           Type Typeoff;
+            type = persone.GetType();
+            Console.WriteLine(type);
+            var s = type.Name;
+            type = Type.GetType("ISTC.codingschool.OOP.Reflect.Persone");
+            Console.WriteLine(type);
+           type = typeof(Persone);
+            Console.WriteLine(type);
+            var d = type.GetTypeInfo();
+            Console.WriteLine(d);
+            type.GetRuntimeProperty(" ");
+            var t = type.TypeInitializer;
+            Method1(persone);
+            Method2(persone);
+            Method3(persone);
+            Method4(persone);
+            Method5(persone);
+            MethodInfo info = type.GetMethod("MethodC", BindingFlags.Instance | BindingFlags.NonPublic);
+            info.Invoke(persone, new object[] { 15, 16 });
+            FieldInfo fieldInfo = type.GetField("Name", BindingFlags.Instance | BindingFlags.NonPublic);
+            fieldInfo.SetValue(persone, "Armen");
+            Console.WriteLine(new string('_', 30));
+            Console.WriteLine(persone.Name);
+            Console.WriteLine(info);
+            Type T = typeof(Persone);
 
 
 
