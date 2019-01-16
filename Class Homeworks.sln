@@ -85,6 +85,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISTC.Codingschool.OOP.WorkW
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ISTC.codingschool.OOP.Reflect", "ISTC.codingschool.OOP.Reflect\ISTC.codingschool.OOP.Reflect.csproj", "{6D259D14-351F-4EEE-9500-DDA60A24F6B0}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ISTC.codingschool.OOP.exeptions", "ISTC.codingschool.OOP.exeptions", "{CEFB2877-53C6-4C8C-8EEB-9D10204B2FB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exeptions.exemple1", "ISTC.codingschool.OOP.exeptions\Exeptions.exemple1\Exeptions.exemple1.csproj", "{52A97F51-A642-4D07-B181-B1D36892A8E1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +211,10 @@ Global
 		{6D259D14-351F-4EEE-9500-DDA60A24F6B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D259D14-351F-4EEE-9500-DDA60A24F6B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D259D14-351F-4EEE-9500-DDA60A24F6B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A97F51-A642-4D07-B181-B1D36892A8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A97F51-A642-4D07-B181-B1D36892A8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A97F51-A642-4D07-B181-B1D36892A8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A97F51-A642-4D07-B181-B1D36892A8E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -231,6 +239,7 @@ Global
 		{CB96EEE5-289B-4BD6-BDB6-B2BB8210DD0B} = {C02AE51C-557C-4489-8CCA-FCF2BDDAC2AE}
 		{1C92DEE1-97A9-473F-9F7B-969ACC66E797} = {EF147308-D08D-4656-BB1A-BCAF6508B421}
 		{DE5466E6-B00B-46E7-81B2-09FF2BCCD027} = {3A82B4AD-B8BA-44CE-A2B6-86CAC589614B}
+		{52A97F51-A642-4D07-B181-B1D36892A8E1} = {CEFB2877-53C6-4C8C-8EEB-9D10204B2FB6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AD220E96-1A2F-4061-A2EB-82B850544615}
